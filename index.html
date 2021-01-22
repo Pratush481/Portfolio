@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+
+    <!-- Bootstrap Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+   
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="container navigation pt-3">
+      <div class="row">
+        <div class="col-6 d-flex justify-content-start align-items-center">
+          <i class="fas fa-code fa-2x text-warning pb-3"></i>
+          <h5 class="d-inline pl-2 text-white">Portfolio</h5>
+        </div>
+        <div class="col-6 pt-2">
+          <div
+            class="row text-center p-0 d-flex justify-content-end align-items-center"
+          >
+            <div class="col-3">
+              <a href="#about" class="text-white navigation-link">About</a>
+            </div>
+            <div class="col-3">
+              <a href="#projects" class="text-white navigation-link"
+                >Projects</a
+              >
+            </div>
+            <div class="col-3">
+              <a href="#social-media" class="text-white navigation-link"
+                >Social Media</a
+              >
+            </div>
+            <div class="col-3">
+              <a
+                href="https://packetcode.github.io/web-development-crash-course/resume-mini-project/"
+                target="_blank"
+                class="text-white navigation-link"
+                >Resume</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="main-container container">
+      <div class="row main_row">
+        <div class="col-6">
+          <h2 class="text-white">Hello, I'm</h2>
+          <h1 class="text-warning m-heading">Pratush</h1>
+          <h2 class="text-white">Student ,CSE B.Tech </h2>
+        </div>
+        <div class="col-6" id="cd">
+          <img
+            src="images\me.JPG"
+            class="img-fluid rounder"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="container about p-5">
+      <div class="row">
+        <div class="col-6">
+          <img src="./images/about_img.svg" class="img-fluid" />
+        </div>
+        <div class="col-6 pl-5 pt-5 pb-5 text-white">
+          <h3 class="text-warning">About Me</h3>
+          <h1 class="m-heading">A little bit about me</h1>
+          <p>
+            Experienced Member with a demonstrated history of working in the non-profit organization management industry. Skilled in C++(Programming Language), SQL,Python, Member of IEEE etc. Strong operations professional with ongoing Bachelor of Technology - BTech focused in Computer Software Engineering from <b class="text-warning">Madan Mohan Malaviya University of Technology. </b>
+          </p>
+          <br />
+          
+          <button class="btn btn-outline-warning" > <a href="#social-media" style="text-decoration:none">Learn More</a></button>
+        </div>
+      </div>
+    </div>
+<div id="projects" class="container mt-5 pt-5">
+  <h1 class="text-warning mb-3 pb-2">Skills</h1><br><b>
+  <span>
+    &nbsp;&nbsp;<button type="button" class="btn btn-primary">c++</button>&nbsp;&nbsp;
+    <button type="button" class="btn btn-primary">Data structure and Algo.</button>&nbsp;&nbsp;
+    <button type="button" class="btn btn-primary">Competetive Programming</button>&nbsp;&nbsp;
+    <button type="button" class="btn btn-primary">Python</button>&nbsp;&nbsp;
+    <button type="button" class="btn btn-success">HTML</button>&nbsp;&nbsp;
+    <button type="button" class="btn btn-success">CSS</button>&nbsp;&nbsp;
+    <button type="button" class="btn btn-success">JavaScript</button>&nbsp;&nbsp;
+    <button type="button" class="btn btn-danger">Machine Learning</button>
+  </span>
+</div></b>
+    <!-- Projects Section -->
+    <div id="projects" class="container mt-5 pt-5">
+      <h1 class="text-warning mb-3 pb-2">My Projects</h1>
+      <div class="row">
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/messaging.svg"
+              class="card-img-top"
+              style="height: 13rem;"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Restaurant site</h5>
+              <p class="card-text">
+                Build a mock responsive website using Html CSS JavaScript and Bootstrap5.
+              </p>
+              <a href="https://pratush481.github.io/Restaurant-site/" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/fitness.svg"
+              class="card-img-top img-fluid"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Bank Loan </h5>
+              <p class="card-text">
+                Train and Visualize the dataset of bank loan, Predict the if the customer is available for
+                Bank loan or not and calculate the accuracy with each method of Classification.
+                
+              </p>
+              <a href="https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/c25998c2-95ad-4ea0-b596-85f467337d57/view?access_token=41b78cf2c6cdcb07e3f0eeefdb27454b53d0e7fd42ac0c7a5906d19f6fdb33be" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/e_commerce_platform.svg"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Cats vs. Non-Cats</h5>
+              <p class="card-text">
+                Increase the accuracy to 80%+ using deep learning(2 and L layers) for the cat vs. non-cats dataset 
+              </p>
+              <a href="#" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/music.svg"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">	Co2 </h5>
+              <p class="card-text">
+                EmissionTrain and Visualize the dataset of Car, Predict the Co2 emission using Multiple Regression. 
+              </p>
+              <a href="https://labs.cognitiveclass.ai/tools/jupyterlab/lab/tree/labs/coursera/ML0101EN/ML0101EN-Reg-Mulitple-Linear-Regression-Co2-py-v1.ipynb?lti=true" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/photography.svg"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Portfolio</h5>
+              <p class="card-text">
+                The one you are seeing
+              </p>
+              <a href="#" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+
+    <div id="skills">
+
+    </div>
+
+    <!-- Social Media Section -->
+    <div id="social-media" class="container-fluid">
+      <div class="container text-white py-5">
+        <h4 class="text-warning">Social Media</h4>
+        <h1 class="m-heading">Get connected</h1>
+        <div class="row pt-5">
+          <div class="col-3 media_link btn" ><a style="text-decoration: none;" href="https://www.linkedin.com/in/pratush-rai-b7345a197/" class="text-white">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <h3 class="m-0 pt-2 text-white">LinkedIn</h3>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fab fa-linkedin-in fa-2x text-secondary"></i>
+              </div>
+            </div></a>
+          </div>
+          <div class="col-3 media_link btn" ><a style="text-decoration: none;" href="https://github.com/Pratush481" class="text-white">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <h3 class="m-0 pt-2 text-white">Github</h3>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fa fa-github fa-2x text-secondary"></i>
+              </div>
+            </div></a>
+          </div>
+          <div class="col-3 media_link btn" ><a style="text-decoration: none;" href="https://www.facebook.com/pratush.rai.1" class="text-white">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <h3 class="m-0 pt-2 text-white">Facebook</h3>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fa fa-facebook fa-2x text-secondary"></i>
+              </div>
+            </div></a>
+          </div>
+          
+          <a style="text-decoration: none;" href="mailto:pratushrai7@gmail.com" class="text-white">
+          <div class="col-3 media_link bg-warning btn">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <h3 class="m-0 pt-2 text-dark">Email</h3>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fas fa-envelope fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </div></a>
+        </div>
+      </div>
+    </div>
+
+ 
+    </footer>
+  </body>
+</html>
