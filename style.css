@@ -25,7 +25,7 @@ body {
 
 
 .main-container {
-  height: 100vh;
+  text-align: center;
 }
 
 .main_row {
@@ -65,6 +65,7 @@ body {
   border: 2px solid #f5ba09;
   border-radius: 0.5rem;
 }
+
 img.rounder
 {
   border-radius: 30%;
